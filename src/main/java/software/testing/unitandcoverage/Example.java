@@ -9,7 +9,7 @@ public class Example {
     public int getValue(int input) {
 
         if(input == 10) {
-           return input * 100;
+           return input * 101;
         }
 
         return input * 10;
