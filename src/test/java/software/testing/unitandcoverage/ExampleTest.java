@@ -18,5 +18,31 @@ class ExampleTest {
         Example example = new Example();
         assertEquals(0, example.getValue(0));
     }
-
+    
+    @Test
+    public void shouldSayThankYouInChinese() {
+        Example example = new Example();
+        String thankYou = example.sayThankYou("CN");
+        assertEquals("谢谢", thankYou);
+    }
+    
+    @Test
+    public void shouldSayThankYouInWelsh() {
+        Example example = new Example();
+        String thankYou = example.sayThankYou("CY");
+        assertEquals("Diolch", thankYou);
+    }
+    
 }
+
+
+
+
+
+
+
+
+
+
+
+

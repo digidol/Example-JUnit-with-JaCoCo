@@ -15,4 +15,19 @@ public class Example {
         return input * 10;
     }
 
+    public String sayThankYou(String language) {
+        
+        switch(language) {
+            case "CN":
+                return "谢谢";
+            case "CY":
+                return "Diolch";
+            case "EN":
+                return "Thank you";
+            default:
+                return "I'm sorry, I don't speak that language.";
+        }
+        
+    }
+    
 }
