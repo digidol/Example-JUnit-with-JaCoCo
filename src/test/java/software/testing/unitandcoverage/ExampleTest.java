@@ -10,7 +10,7 @@ class ExampleTest {
 
         Example example = new Example();
         int output = example.getValue(20);
-        assertEquals(200, output);
+        assertEquals(201, output);
     }
 
     @Test
