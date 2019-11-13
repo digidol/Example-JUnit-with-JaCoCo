@@ -12,7 +12,7 @@ public class Example {
            return input * 101;
         }
 
-        return input * 10;
+        return input * 101;
     }
 
     public String sayThankYou(String language) {
