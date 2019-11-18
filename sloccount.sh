@@ -1,2 +1,2 @@
 #!/bin/bash
-/usr/local/bin/sloccount --duplicates --wide --details src/main/java > target/sloccount.sc
+/usr/bin/sloccount --duplicates --wide --details src/main/java > target/sloccount.sc
