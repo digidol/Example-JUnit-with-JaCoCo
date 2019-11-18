@@ -126,7 +126,7 @@
                         <configuration>
                             <executable>bash</executable>
                             <arguments>
-                                <argument>sloccount.sh</argument>
+                                <argument>/usr/bin/sloccount</argument>
                             </arguments>
                         </configuration>
                     </execution>
